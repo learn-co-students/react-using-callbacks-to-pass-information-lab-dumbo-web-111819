@@ -1,7 +1,7 @@
 // var defaultValues = (() => Array(100).fill(Array(100).fill('#F00')))()
 
 // How the pixel matrix was made from the png
-// var rgbToHex = function (rgb) { 
+// var rgbToHex = function (rgb) {
 //   var hex = Number(rgb).toString(16);
 //   if (hex.length < 2) {
 //        hex = "0" + hex;
@@ -28,6 +28,24 @@
 //   }
 //   console.log('result',x);
 // })
+// const arrayName =   [
+//     '#FFF',    '#FFF',    '#FFF',    '#FFF',
+//     '#FFF',    '#FFF',    '#FFF',    '#FFF',
+//     '#FFF',    '#FFF',    '#ffffff', '#ffffff',
+//     '#ffffff', '#ffffff', '#ffffff', '#ffffff',
+//     '#ffffff', '#ffffff', '#ffffff', '#ffffff',
+//     '#ffffff', '#ffffff', '#ffffff', '#ffffff',
+//     '#ffffff', '#ffffff', '#ffffff', '#ffffff',
+//     '#ffffff', '#ffffff', '#ffffff', '#ffffff',
+//     '#ffffff', '#ffffff', '#ffffff', '#FFF',
+//     '#FFF',    '#FFF',    '#FFF',    '#FFF',
+//     '#FFF',    '#FFF',    '#FFF',    '#FFF',
+//     '#FFF',    '#FFF'
+//   ]
+//
+//
+// var learnSymbol = new Array(25)
+// learnSymbol.fill(arrayName)
 
 var learnSymbol = [
   [
@@ -382,4 +400,3 @@ var learnSymbol = [
   ]
 ]
 export default learnSymbol
-
